@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h2{
+    background: #dfdfdf;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.table-block{
+    padding: 0px 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.song-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+.song-info {
+    max-width: 600px;
+}
+
+.song-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.song-artist, .song-album, .song-genre, .song-year, .song-duration {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.song-rating {
+    font-size: 1.5rem;
+    color: #f39c12;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    background-color: #3498db;
+}
